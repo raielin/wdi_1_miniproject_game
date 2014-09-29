@@ -50,6 +50,8 @@ RULES
 
 require 'pry'
 
+# ---------------- CLASSES ----------------
+
 class Players
   attr_accessor
     :personality,
@@ -65,12 +67,8 @@ class Players
     :name,
     :age
 
-  def initialize
-end
 
-class Bach < Players
-
-  # Creates new bachelor or bachelorette
+  # Creates new Player object
   # Input args: name = String, age = Integer (Fixnum), gender = String
   # Return datatype = nil
   def initialize(name, age, gender)
@@ -78,28 +76,39 @@ class Bach < Players
     @age = age
     @gender = gender
   end
+end
 
-  # Need: Create randomization method to provide values for other attributes.
+class Bach < Players
+
+  # Creates new bachelor or bachelorette passing attribute values to superclass Players.
+  # Input args: name = String, age = Integer (Fixnum), gender = String
+  # Return datatype = nil
+  def initialize(name, age, gender)
+    super(name, age, gender)
+  end
+
+  # NEED: Create randomization method to provide values for other attributes.
 end
 
 class Contestants < Players
 
+  # Creates new bachelor or bachelorette passing attribute values to superclass Players.
+  # Input args: name = String, age = Integer (Fixnum), gender = String
+  # Return datatype = nil
   def initialize(name, age, gender)
-    @name = name
-    @age = age
-    @gender = gender
+    super(name, age, gender)
   end
 
-  # Need: Create randomization method to provide values for other attributes.
-  # Need: Create methods to allow user to alter/trade-off values of 2 user-selected attributes
+  # NEED: Create randomization method to provide values for other attributes.
+  # NEED: Create methods to allow user to alter/trade-off values of 2 user-selected attributes
 end
 
+# ---------------- GLOBAL METHODS ----------------
 
 
 
 
-
-
+# ---------------- MAIN CODE ----------------
 
 
 
