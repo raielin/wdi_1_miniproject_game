@@ -50,8 +50,44 @@ RULES
 
 require 'pry'
 
+class Players
+  attr_accessor
+    :personality,
+    :attractiveness,
+    :intelligence,
+    :risk_taker,
+    :career_driven,
+    :athletic,
+    :talented,
+    :drinker,
+    :smoker,
+    :gender,
+    :name,
+    :age
+end
 
+class Bach < Players
 
+  def initialize(name, age, gender)
+    @name = name
+    @age = age
+    @gender = gender
+  end
+
+  # Create randomization method to provide values for other attributes.
+end
+
+class Contestants < Players
+
+  def initialize(name, age, gender)
+    @name = name
+    @age = age
+    @gender = gender
+  end
+
+  # Create randomization method to provide values for other attributes.
+  # Create methods to allow user to alter/trade-off values of 2 user-selected attributes
+end
 
 
 

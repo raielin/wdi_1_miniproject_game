@@ -90,14 +90,36 @@ what values are there to assign
 typically certain characteristics, skills, or attributes are "mapped" to already-established statistics.
 
 
+# ----------------- THE BACHELOR/ETTE ------------------
+
+1 bachelor / bachelorette
+
+5 contestants
+
+Attributes:
+  * personality (shy/outgoing)
+  * attractiveness
+  * intelligence
+  * risk taker
+  * career driven
+  * athletic
+  * talented
+  * drinker
+  * smoker
+  * gender
+  * name
+  * age
+
+5 contestants will be created with randomly generated attributes, but user can "trade" value of 2 qualities
+
+User to provide names, gender, and ages of contestants. Must have at least 2 contestants.
+
+User to select bachelor or bachelorette with randomly generated name and attributes.
+  * start with 5 names for each option
+  * allow user to add their own if preferred
 
 
 =end
-
-
-
-
-
 
 
 
