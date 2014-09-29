@@ -118,6 +118,11 @@ User to select bachelor or bachelorette with randomly generated name and attribu
   * start with 5 names for each option
   * allow user to add their own if preferred
 
+Compatibility requirements - at least 6 of 9 attributes (name, gender, and age are not evaluated) are within 2 points of each other.
+
+If more than one meet compatibility requirements, then tie break ** not sure yet what this will be.
+
+
 
 =end
 
