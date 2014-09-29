@@ -64,17 +64,22 @@ class Players
     :gender,
     :name,
     :age
+
+  def initialize
 end
 
 class Bach < Players
 
+  # Creates new bachelor or bachelorette
+  # Input args: name = String, age = Integer (Fixnum), gender = String
+  # Return datatype = nil
   def initialize(name, age, gender)
     @name = name
     @age = age
     @gender = gender
   end
 
-  # Create randomization method to provide values for other attributes.
+  # Need: Create randomization method to provide values for other attributes.
 end
 
 class Contestants < Players
@@ -85,8 +90,8 @@ class Contestants < Players
     @gender = gender
   end
 
-  # Create randomization method to provide values for other attributes.
-  # Create methods to allow user to alter/trade-off values of 2 user-selected attributes
+  # Need: Create randomization method to provide values for other attributes.
+  # Need: Create methods to allow user to alter/trade-off values of 2 user-selected attributes
 end
 
 

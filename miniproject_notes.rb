@@ -90,7 +90,7 @@ what values are there to assign
 typically certain characteristics, skills, or attributes are "mapped" to already-established statistics.
 
 
-# ----------------- THE BACHELOR/ETTE ------------------
+# ----------------- ARE YOU A MATCH? ------------------
 
 1 bachelor / bachelorette
 
